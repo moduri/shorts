@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ll_icon">55dp</dimen>
+    <dimen name="iv_icon_height">35dp</dimen>
+    <dimen name="tv_icon_text_mt">13dp</dimen>
+    <dimen name="tv_icon_text">11sp</dimen>
+</resources>
