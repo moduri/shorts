@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.yt.shorts.adapter.ShortsAdapter;
 import com.yt.shorts.databinding.ActivityMainBinding;
+import com.yt.shorts.databinding.RowShortsBinding;
 import com.yt.shorts.model.ShortsItem;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
+    RowShortsBinding rowShortsBinding;
     private ViewPager2 viewPager;
 
     @Override
@@ -33,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
         // 데이터를 추가해야함
         items.add(new ShortsItem("url", "title", "description"));
+        items.add(new ShortsItem("url", "title", "description"));
+        items.add(new ShortsItem("url", "title", "description"));
+        items.add(new ShortsItem("url", "title", "description"));
+
         return items;
     }
 }
