@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/iv_icon_height"
         android:layout_weight="8"
-        android:src="@drawable/comment"/>
+        android:src="@drawable/comment" />
 
     <TextView
         android:id="@+id/tv_comment"
@@ -20,6 +20,7 @@
         android:layout_marginTop="@dimen/tv_icon_text_mt"
         android:textAlignment="center"
         android:textSize="@dimen/tv_icon_text"
+        android:textColor="#ffffff"
         android:text="댓글"/>
 
 </LinearLayout>

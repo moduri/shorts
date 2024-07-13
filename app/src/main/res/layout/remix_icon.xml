@@ -20,6 +20,7 @@
         android:layout_marginTop="@dimen/tv_icon_text_mt"
         android:textAlignment="center"
         android:textSize="@dimen/tv_icon_text"
+        android:textColor="#ffffff"
         android:text="리믹스"/>
 
 </LinearLayout>
