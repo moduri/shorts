@@ -113,24 +113,28 @@
                 layout="@layout/thumb_down_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/icon_marginTop"
                 android:layout_weight="1" />
 
             <include
                 layout="@layout/comment_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/icon_marginTop"
                 android:layout_weight="1" />
 
             <include
                 layout="@layout/share_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/icon_marginTop"
                 android:layout_weight="1" />
 
             <include
                 layout="@layout/remix_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/icon_marginTop"
                 android:layout_weight="1" />
 
             <ImageView
